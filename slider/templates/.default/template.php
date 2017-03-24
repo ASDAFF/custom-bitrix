@@ -17,7 +17,7 @@ $this->addExternalJS($com_path . "front/js/jquery-3.1.1.min.js");
 $this->addExternalJS($com_path . "front/js/masterslider.js");
 
 ?>
-<div class="nbrains-slider-block" style="max-width: <?= $arParams['WIDTH'] ?>px">
+<div class="slider-block" style="max-width: <?= $arParams['WIDTH'] ?>px">
     <div id="P_MS<?= $arResult['ID']; ?>" class="master-slider-parent ms-parent-id-62">
         <!-- MasterSlider Main -->
         <div id="MS<?= $arResult['ID'] ?>" class="master-slider ms-skin-light-3">
