@@ -33,11 +33,11 @@ while ($arr=$rsProp->Fetch())
 }
 $arArrowsHidden = array(
 	'true' => GetMessage("CUSTOM_SLIDER_YES"),
-	'false' => GetMessage("NBRAINS_NO")
+	'false' => GetMessage("CUSTOM_SLIDER_NO")
 );
 $arBtnSlideControl = array(
-	'top' => GetMessage("NBRAINS_TOP"),
-	'bottom'=> GetMessage("NBRAINS_BOTTOM")
+	'top' => GetMessage("CUSTOM_SLIDER_TOP"),
+	'bottom'=> GetMessage("CUSTOM_SLIDER_BOTTOM")
 );
 $arComponentParameters = array(
 	"GROUPS" => array(
@@ -61,37 +61,37 @@ $arComponentParameters = array(
 		),
 		"WIDTH" => array(
 			"PARENT" => "BASE",
-			"NAME" => GetMessage("NBRAINS_WIDTH_SLIDER"),
+			"NAME" => GetMessage("CUSTOM_SLIDER_WIDTH_SLIDER"),
 			"TYPE" => "STRING",
 			"DEFAULT" => "860",
 		),
 		"HEIGHT" => array(
 			"PARENT" => "BASE",
-			"NAME" => GetMessage("NBRAINS_HEIGHT_SLIDER"),
+			"NAME" => GetMessage("CUSTOM_SLIDER_HEIGHT_SLIDER"),
 			"TYPE" => "STRING",
 			"DEFAULT" => "400",
 		),
 		"TIME_SLIDE" => array(
 			"PARENT" => "BASE",
-			"NAME" => GetMessage("NBRAINS_TIME_SLIDE"),
+			"NAME" => GetMessage("CUSTOM_SLIDER_TIME_SLIDE"),
 			"TYPE" => "STRING",
 			"DEFAULT" => "10",
 		),
 		"RIGHT_PX_TEXT" => array(
 			"PARENT" => "BASE",
-			"NAME" => GetMessage("NBRAINS_RIGHT_PX_TEXT"),
+			"NAME" => GetMessage("CUSTOM_SLIDER_RIGHT_PX_TEXT"),
 			"TYPE" => "STRING",
 			"DEFAULT" => "70",
 		),
 		"TOP_PX_TEXT" => array(
 			"PARENT" => "BASE",
-			"NAME" => GetMessage("NBRAINS_TOP_PX_TEXT"),
+			"NAME" => GetMessage("CUSTOM_SLIDER_TOP_PX_TEXT"),
 			"TYPE" => "STRING",
 			"DEFAULT" => "135",
 		),
 		"HIDDEN_ARROWS" => array(
 			"PARENT" => "BASE",
-			"NAME" => GetMessage("NBRAINS_HIDDEN_ARROWS_DESC"),
+			"NAME" => GetMessage("CUSTOM_SLIDER_HIDDEN_ARROWS_DESC"),
 			"TYPE" => "LIST",
 			"DEFAULT" => "false",
 			"VALUES" => $arArrowsHidden,
@@ -99,7 +99,7 @@ $arComponentParameters = array(
 		),
 		"BTN_SLIDE_CONTROL" => array(
 			"PARENT" => "BASE",
-			"NAME" => GetMessage("NBRAINS_PLACE_CONTROL_CHENGE_BTN"),
+			"NAME" => GetMessage("CUSTOM_SLIDER_PLACE_CONTROL_CHENGE_BTN"),
 			"TYPE" => "LIST",
 			"DEFAULT" => "bottom",
 			"VALUES" => $arBtnSlideControl,
@@ -107,19 +107,19 @@ $arComponentParameters = array(
 		),
 		"PROGRESS_BAR_HEIGHT" => array(
 			"PARENT" => "BASE",
-			"NAME" => GetMessage("NBRAINS_PROGRESS_BAR_HEIGHT"),
+			"NAME" => GetMessage("CUSTOM_SLIDER_PROGRESS_BAR_HEIGHT"),
 			"TYPE" => "STRING",
 			"DEFAULT" => "4",
 		),
 		"PROGRESS_BAR_COLOR" => array(
 			"PARENT" => "BASE",
-			"NAME" => GetMessage("NBRAINS_PROGRESS_BAR_COLOR"),
+			"NAME" => GetMessage("CUSTOM_SLIDER_PROGRESS_BAR_COLOR"),
 			"TYPE" => "STRING",
 			"DEFAULT" => "8FBB3F",
 		),
 		"PROGRESS_BAR_PLACE" => array(
 			"PARENT" => "BASE",
-			"NAME" => GetMessage("NBRAINS_PROGRESS_BAR_PLACE"),
+			"NAME" => GetMessage("CUSTOM_SLIDER_PROGRESS_BAR_PLACE"),
 			"TYPE" => "LIST",
 			"DEFAULT" => "bottom",
 			"VALUES" => $arBtnSlideControl,
