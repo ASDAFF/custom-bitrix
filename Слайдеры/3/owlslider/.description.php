@@ -8,8 +8,8 @@ $arComponentDescription = array(
 	"COMPLEX" => "N",
 	"SORT" => 500,
 	"PATH" => array(
-        "ID" => "bisexpert",
-        "NAME" => "bis-expert.com"
+        "ID" => "custom",
+        "NAME" => "owl slider"
 	),
 );
 ?>
