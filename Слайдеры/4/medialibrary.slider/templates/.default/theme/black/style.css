@@ -1,0 +1,7 @@
+.medialibslider-control-prev,
+.medialibslider-control-next {
+	background: #000000;
+}
+.medialibslider-pagination a.active {
+	background: #000000;
+}
