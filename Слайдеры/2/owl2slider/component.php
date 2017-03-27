@@ -8,7 +8,7 @@ use
 $Asset = Asset::getInstance();
 
 Loc::loadLanguageFile(__FILE__);
-Loader::includeModule("teasoft.owl2slider");
+//Loader::includeModule("teasoft.owl2slider");
 
 //$this->IncludeComponentLang('.parameters.php');
 
@@ -157,8 +157,8 @@ $arParams['OWL2SLIDER_OWL_OPTS_DESCRIPTION_TEXT_SOURCE'] = intval($arParams['OWL
 $arResult = array();
 $arResult['ITEMS'] = array();
 
-$Asset->addCss('/bitrix/css/teasoft.owl2slider/animate.min.css');
-$Asset->addCss('/bitrix/css/teasoft.owl2slider/owl.carousel.min.css');
+$Asset->addCss('/bitrix/components/custom/owl2slider/css/animate.min.css');
+$Asset->addCss('/bitrix/components/custom/owl2slider/css/owl.carousel.min.css');
 
 if ($this->StartResultCache(false, $USER->GetGroups()))
 {
@@ -364,7 +364,7 @@ if ($this->StartResultCache(false, $USER->GetGroups()))
 
 if ($arParams['OWL2SLIDER_USE_JQUERY'] == "Y")
 {
-	$Asset->addJs('/bitrix/js/teasoft.owl2slider/jquery.min.js');
+	$Asset->addJs('/bitrix/components/custom/owl2slider/js/jquery.min.js');
 }
-$Asset->addJs('/bitrix/js/teasoft.owl2slider/owl.carousel.min.js', true);
+$Asset->addJs('/bitrix/components/custom/owl2slider/js/owl.carousel.min.js', true);
 
