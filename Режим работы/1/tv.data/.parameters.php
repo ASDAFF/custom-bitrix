@@ -69,7 +69,7 @@ $arComponentParameters = array(
 
 		"LUNCH" =>array(
 			"PARENT" => "BASE",
-			"NAME" => GetMessage("LUNCH"),
+			"NAME" => "Выпадающий текст",
 			"TYPE" => "STRING",
 			"DEFAULT" => GetMessage("YENISITE_WORKTIME_OBED_S")." 13:00 ".GetMessage("YENISITE_WORKTIME_DO")." 14:00"
 		),		
