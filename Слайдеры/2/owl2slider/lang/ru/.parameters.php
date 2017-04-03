@@ -2,6 +2,7 @@
 $MESS["OWL2SLIDER_SOURCE_COUNT"] = "Кол-во элементов";
 
 $MESS["OWL2SLIDER_USE_JQUERY"] = "Включить jQuery из компонента";
+$MESS["OWL2SLIDER_USE_OWL_CAROUSEL"] = "Включить плагин Owl.Carousel из компонента";
 $MESS["OWL2SLIDER_EXPERT_MODE"] = "Включить Экспертный режим настроек";
 
 

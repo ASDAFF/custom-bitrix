@@ -244,6 +244,12 @@ $arComponentParameters = array(
 						"TYPE"    => "CHECKBOX",
 						"DEFAULT" => "N",
 				),
+            "OWL2SLIDER_USE_OWL_CAROUSEL"                       => array(
+                "PARENT"  => "ADDITIONAL_SETTINGS",
+                "NAME"    => Loc::getMessage("OWL2SLIDER_USE_OWL_CAROUSEL"),
+                "TYPE"    => "CHECKBOX",
+                "DEFAULT" => "N",
+            ),
 				"OWL2SLIDER_OWL_OPTS_visibleItemsCount"       => array(
 						"PARENT"            => "VISUAL",
 						"NAME"              => Loc::getMessage("OWL2SLIDER_OWL_OPTS_visibleItemsCount"),

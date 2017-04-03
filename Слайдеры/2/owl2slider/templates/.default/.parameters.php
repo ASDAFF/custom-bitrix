@@ -17,7 +17,7 @@ $arThemesList = array(
 );
 
 $arStylesList = array(
-		"apple"      => Loc::getMessage("OWL2SLIDER_OWL_OPTS_COLOR_apple"),
+		"blue"      => Loc::getMessage("OWL2SLIDER_OWL_OPTS_COLOR"),
 		"ash"        => Loc::getMessage("OWL2SLIDER_OWL_OPTS_COLOR_ash"),
 		"orange"     => Loc::getMessage("OWL2SLIDER_OWL_OPTS_COLOR_orange"),
 		"bilberry"   => Loc::getMessage("OWL2SLIDER_OWL_OPTS_COLOR_bilberry"),
@@ -41,7 +41,7 @@ $arTemplateParameters["OWL2SLIDER_OWL_OPTS_COLOR"] = array(
 		"TYPE"              => "LIST",
 		"MULTIPLE"          => "N",
 		"ADDITIONAL_VALUES" => "Y",
-		"DEFAULT"           => "apple",
+		"DEFAULT"           => "blue",
 		"VALUES"            => $arStylesList,
 );
 

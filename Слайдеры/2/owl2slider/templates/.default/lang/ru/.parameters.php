@@ -2,7 +2,7 @@
 $MESS["OWL2SLIDER_OWL_OPTS_DESIGN"] = "Дизайн";
 $MESS["OWL2SLIDER_OWL_OPTS_COLOR"] = "Цветовая тема";
 
-$MESS["OWL2SLIDER_OWL_OPTS_COLOR_apple"] = "Яблоко";
+$MESS["OWL2SLIDER_OWL_OPTS_COLOR"] = "По умолчанию";
 $MESS["OWL2SLIDER_OWL_OPTS_COLOR_ash"] = "Пепел";
 $MESS["OWL2SLIDER_OWL_OPTS_COLOR_orange"] = "Аппельсин";
 $MESS["OWL2SLIDER_OWL_OPTS_COLOR_bilberry"] = "Черника";

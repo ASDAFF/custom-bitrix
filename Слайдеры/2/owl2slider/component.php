@@ -366,5 +366,8 @@ if ($arParams['OWL2SLIDER_USE_JQUERY'] == "Y")
 {
 	$Asset->addJs('/bitrix/components/custom/owl2slider/js/jquery.min.js');
 }
-$Asset->addJs('/bitrix/components/custom/owl2slider/js/owl.carousel.min.js', true);
 
+if ($arParams['OWL2SLIDER_USE_OWL_CAROUSEL'] == "Y")
+{
+    $Asset->addJs('/bitrix/components/custom/owl2slider/js/owl.carousel.min.js', true);
+}
