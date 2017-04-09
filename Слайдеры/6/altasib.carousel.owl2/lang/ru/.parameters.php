@@ -1,0 +1,79 @@
+<?	
+$MESS["SHOW_ERROR"] = "Модуль Информационных блоков не установлен";
+$MESS["OWL_IBLOCK_TYPE"] = "Выберете тип инфоблока";
+$MESS["OWL_IBLOCK_ID"] = "Выберете инфоблок";
+$MESS["OWL_NEWS_COUNT"] = "Количество одновременно загружаемых изображений";
+$MESS["OWL_LOAD_NEW_PICTURE"] = "Включить подгрузку новых элементов в карусель";
+$MESS["OWL_PARENT_SECTION"] = "Выберете раздел";
+$MESS["IMAGE_FIELD_OWL_NAME"] = "Выберете поле, из которого брать изображение";
+$MESS["VIDEO_FIELD_OWL_NAME"] = "Выберете поле, из которого брать видео";
+
+$MESS["OWL_DISPLAY_EMPTY_PICTURE"] = "Выводить элементы без изображения";
+$MESS["OWL_COMPRESS_PICTURE"] = "Сжимать изображения";
+$MESS["CROPPED_IMAGE_NAME"] = "Обрезать изображения";
+$MESS["CROPPED_IMAGE_HEIGHT_NAME"] = "Высота нового изображения";
+$MESS["CROPPED_IMAGE_WIDTH_NAME"] = "Ширина нового изображения";
+$MESS["SHOW_LINK_DETAIL_NAME"] = "Создавать ссылку на детальную страницу";
+
+$MESS["IBLOCK_CACHE_FILTER"] = "Кэшировать при установленном фильтре";
+//groups
+$MESS["SETTINGS_OWL_NAME"] = "Настройки карусели";
+$MESS["MOUSE_TOUCH_SCROLL_GROUPS_OWL_NAME"] = "Управление";
+$MESS["MARGIN_PADDING_GROUPS_OWL_NAME"] = "Отступы";
+$MESS["HEIGHT_GROUPS_OWL_NAME"] = "Высота";
+$MESS["MERGE_WIDTH_GROUPS_OWL_NAME"] = "Ширина";
+$MESS["POSITION_GROUPS_OWL_NAME"] = "Позиция";
+$MESS["LAZY_LOAD_GROUPS_OWL_NAME"] = "LazyLoad";
+$MESS["VIDEO_GROUPS_OWL_NAME"] = "Видео";
+$MESS["ANIMATE_GROUPS_OWL_NAME"] = "Анимация";
+$MESS["AUTO_PLAY_GROUPS_OWL_NAME"] = "Слайдшоу";
+$MESS["NAV_GROUPS_OWL_NAME"] = "Навигации";
+$MESS["ADAPTIVE_GROUPS_OWL_NAME"] = "Адаптация";
+
+//options owlcarousel2
+$MESS["ITEMS_OWL_NAME"] = "Количество выводимых на странице элементов";
+$MESS["LOOP_OWL_NAME"] = "Зациклить карусель";
+$MESS["CENTER_OWL_NAME"] = "Отцентровать карусель";
+$MESS["MOUSE_DRAG_OWL_NAME"] = "Включить перетаскивание мышкой";
+$MESS["TOUCH_DRAG_OWL_NAME"] = "Включить поддержку мобильных устройств";
+$MESS["PULLDRAG_OWL_NAME"] = "Включить тянущиеся края";
+$MESS["MOUSE_SCROLL_NAME"] = "Включить управление колесом мышки";
+$MESS["MARGIN_OWL_NAME"] = "Отступ справа от элемента";
+$MESS["HEIGHT_CAROUSEL_OWL_NAME"] = "Высота изображений";
+$MESS["AUTO_WIDTH_OWL_NAME"] = "Авто ширина элементов карусели";
+$MESS["STAGE_PADDING_OWL_NAME"] = "Отступы слева/справа от карусели";
+$MESS["START_POSITION_OWL_NAME"] = "Начальная позиция карусели";
+$MESS["RTL_OWL_NAME"] = "Выводить элементы в обратном порядке";
+$MESS["SMART_SPEED_OWL_NAME"] = "Скорость перехода к следующему элементу";
+//$MESS["FLUID_SPEED_OWL_NAME"] = "Скорость перехода к следующему элементу";
+$MESS["DRAG_END_SPEED_OWL_NAME"] = "Время остановки после перетаскивания";
+$MESS["LAZY_LOAD_OWL_NAME"] = "Включить режим lazyLoad";
+$MESS["AUTO_HEIGHT_OWL_NAME"] = "Устанавливать высоту карусели по высоте изображения";
+$MESS["VIDEO_OWL_NAME"] = "Включить работу с видео файлами";
+$MESS["VIDEO_HEIGHT_OWL_NAME"] = "Высота видеоплеера";
+$MESS["VIDEO_WIDTH_OWL_NAME"] = "Ширина видеоплеера";
+$MESS["ANIMATE_OWL_NAME"] = "Включить анимацию";
+$MESS["ANIMATE_OUT_OWL_NAME"] = "Анимация выходящего элемента";
+$MESS["ANIMATE_IN_OWL_NAME"] = "Анимация входящего элемента";
+$MESS["AUTO_PLAY_OWL_NAME"] = "Включить слайдшоу";
+$MESS["AUTO_PLAY_TIMEOUT_OWL_NAME"] = "Задержка слайдшоу";
+$MESS["AUTO_PLAY_SPEED_OWL_NAME"] = "Скорость слайдшоу";
+$MESS["AUTO_PLAY_HOVER_PAUSE_OWL_NAME"] = "Останавливать слайдшоу при наведении мышки";
+$MESS["NAV_OWL_NAME"] = "Показывать кнопки навигации";
+$MESS["NAV_TEXT_LEFT_OWL_NAME"] = "Текст в левой кнопке";
+$MESS["NAV_TEXT_RIGHT_OWL_NAME"] = "Текст в правой кнопке";
+$MESS["NAV_SPEED_OWL_NAME"] = "Скорость переключения элементов при нажатия на кнопки навигации";
+$MESS["DOTS_OWL_NAME"] = "Показывать постраничную навигацию";
+$MESS["DOTS_EACH_OWL_NAME"] = "Показывать постраничную навигацию для каждого элемента";
+$MESS["DOTS_SPEED_OWL_NAME"] = "Скорость перелистывания при нажатии на кнопки постраничной навигации";
+$MESS["ADAPTIVE_OWL_NAME"] = "Включить адаптацию карусели под разную ширину окна";
+$MESS["ITEM_0_ADAPTIVE_OWL_NAME"] = "Количество выводимых элементов при ширине экрана от 0px до 768px";
+$MESS["ITEM_768_ADAPTIVE_OWL_NAME"] = "Количество выводимых элементов при ширине экрана от 0px до 992px";
+$MESS["ITEM_992_ADAPTIVE_OWL_NAME"] = "Количество выводимых элементов при ширине экрана от 0px до 1200px";
+$MESS["ITEM_1200_ADAPTIVE_OWL_NAME"] = "Количество выводимых элементов при ширине экрана больше 1200px";
+$MESS['OWL_ADD_JQUERY'] = "Подключать jQuery Битрикс";
+$MESS['OWL_ADD_JQUERY_YES'] = "Подключать jQuery";
+$MESS['OWL_ADD_JQUERY_JQUERY2'] = "Подключать jQuery v.2";
+$MESS['OWL_ADD_JQUERY_NO'] = "Нет, jQuery уже подключен";
+$MESS['JQUERY_EN_TIP'] = "Подключение библиотеки jQuery из ядра Битрикс методом CJSCore::Init()";
+?>
