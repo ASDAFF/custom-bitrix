@@ -1,5 +1,5 @@
 # Инфоблоки, инструменты
-![alt-текст](img_md/carouselowl2_new.png "1")
+![alt-текст](img_md/1401444823_mechanics.png "1")
 
 **Описание решения**
 
@@ -16,10 +16,14 @@
     Удобное управление чекбоксами списков.
     Переключатель режима просмотра элементов в одном инфоблоке 
 
-![alt-текст](img_md/color1.png "1")
+![alt-текст](img_md/copy_listy.png "1")
 
-![alt-текст](img_md/color2.png "1")
-![alt-текст](img_md/color3.png "1")
-![alt-текст](img_md/color4.png "1")
-![alt-текст](img_md/color5.png "1")
+![alt-текст](img_md/exp_mod.png "1")
+![alt-текст](img_md/jump_mod.png "1")
+![alt-текст](img_md/move_iblock.png "1")
+![alt-текст](img_md/prop_mod.png "1")
 
+![alt-текст](img_md/_el_&sec.png "1")
+![alt-текст](img_md/_palette.png "1")
+![alt-текст](img_md/_review.png "1")
+![alt-текст](img_md/_simple_chekbox.png "1")
