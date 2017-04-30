@@ -22,7 +22,8 @@
 
 Далее в шаблоне компонента (например, news.list) необходимо подключить плагин и осуществить его вызов:
 
-``` <script src="bitrix/js/fgsoft.autoloader/autoloader.plugin.js"></script>  
+```javascript
+<script src="bitrix/js/fgsoft.autoloader/autoloader.plugin.js"></script>  
 <script>
 (function($){
     if ($('#wrap-news').length && $('#wrap-news font').length) {
