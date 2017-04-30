@@ -22,7 +22,7 @@
 
 Далее в шаблоне компонента (например, news.list) необходимо подключить плагин и осуществить его вызов:
 
-```javascript
+```html
 <script src="bitrix/js/fgsoft.autoloader/autoloader.plugin.js"></script>  
 <script>
 (function($){
@@ -33,7 +33,7 @@
         });
     }
 })(jQuery);
-</script>
+</script>```
 
 
 
