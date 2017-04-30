@@ -1,0 +1,90 @@
+
+.scroll-box-nbrains{
+    min-height: 100px;
+}
+.scroll-box-nbrains > .media-nbrains{
+    padding: 10px 15px;
+}
+.media-body-nbrains > .scroll-text,
+.media-body-nbrains > .scroll-text-date{
+    font-size: 12px;
+    margin: 0px;
+}
+
+.media-body-nbrains > .scroll-text > a{
+    color: black;
+}
+
+.media-body-nbrains > .scroll-text-date{
+    font-style: italic;
+    font-weight: 500;
+}
+.media-nbrains > .media-left-nbrains{
+    padding-right: 10px;
+    display: table-cell;
+    vertical-align: top;
+}
+.media-nbrains > .media-body-nbrains{
+    display: table-cell;
+    vertical-align: top;
+}
+
+#content-news-scroll-nbrains .scroll-box-nbrains:nth-child(2n) {
+    background: #FAFBF5;
+}
+#content-news-scroll-nbrains{
+    border-right: 1px solid #DADADA;
+    border-left: 1px solid #DADADA;
+    border-bottom: 1px solid #DADADA;
+}
+
+.media-left-nbrains a {
+    background: #fff;
+    border: 2px solid #DADADA;
+    width: 96px;
+    height: 78px;
+    display: block;
+}
+
+.media-left-nbrains > a > img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.scroll-box-nbrains:hover{
+    background: #AECE70!important;
+}
+
+
+
+.mCSB_scrollTools{
+    margin: 10px auto;
+}
+
+.mCS-3d.mCSB_scrollTools .mCSB_draggerRail, .mCS-3d-dark.mCSB_scrollTools .mCSB_draggerRail{
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.news_left_nbrains .title_news_nbrains{
+    cursor: pointer;
+    padding: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    font-size: 22px;
+    background: #FAFBF5;
+    border-bottom: 1px solid #DADADA;
+    border-left: 1px solid #DADADA;
+    border-right: 1px solid #DADADA;
+}
+
+.load-news-fon-nbrains{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    background: rgba(255, 255, 255, 0.5);
+}
