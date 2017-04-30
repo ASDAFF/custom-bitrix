@@ -22,8 +22,8 @@
 
 Далее в шаблоне компонента (например, news.list) необходимо подключить плагин и осуществить его вызов:
 
-``` <sc ript src="bitrix/js/fgsoft.autoloader/autoloader.plugin.js"></sc ript>  
-<sc ript>
+``` <script src="bitrix/js/fgsoft.autoloader/autoloader.plugin.js"></script>  
+<script>
 (function($){
     if ($('#wrap-news').length && $('#wrap-news font').length) {
         $('#wrap-news').showMorePlugin({
@@ -32,7 +32,7 @@
         });
     }
 })(jQuery);
-</sc ript> ```
+</script> ```
 
   `#wrap-news` - это обертка для стандартного компонента, например Новости, к которому надо применять автоматическую подгрузку страниц,
 `.page-ajax` - это класс тега, который следует выводить, например, класс страницы или отдельного элемента
