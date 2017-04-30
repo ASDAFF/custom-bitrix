@@ -33,7 +33,7 @@
         });
     }
 })(jQuery);
-</script>```
+</script>
 
 
 
