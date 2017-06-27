@@ -11,10 +11,10 @@
 /** @var string $componentPath */
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
-$com_path = '/bitrix/components/custom/slider/';
-$this->addExternalCss($com_path . "front/css/masterslider.css");
-$this->addExternalJS($com_path . "front/js/jquery-3.1.1.min.js");
-$this->addExternalJS($com_path . "front/js/masterslider.js");
+
+$this->addExternalCss($componentPath . "/front/css/masterslider.css");
+$this->addExternalJS($componentPath . "/front/js/jquery-3.1.1.min.js");
+$this->addExternalJS($componentPath . "/front/js/masterslider.js");
 
 ?>
 <div class="slider-block" style="max-width: <?= $arParams['WIDTH'] ?>px">
